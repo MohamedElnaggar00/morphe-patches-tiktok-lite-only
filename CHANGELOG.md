@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/compare/v1.1.0...v1.1.1) (2026-09-11)
+
+### Bug Fixes
+
+* relax TikTok Lite telemetry fingerprints ([e3a4adf](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/e3a4adfeac534e2e00695f935889fb0b4a765b8c))
+
 ## [1.1.0](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/compare/v1.0.0...v1.1.0) (2026-09-11)
 
 ### Features

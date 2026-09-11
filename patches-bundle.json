@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-11T20:07:43",
-  "description": "## [1.1.0](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/compare/v1.0.0...v1.1.0) (2026-09-11)\n\n### Features\n\n* target TikTok Lite 46.8.3 compatibility ([70fd74a](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/70fd74af35aa080de65f4025c14fe762e8049cba))\n\n### Bug Fixes\n\n* match telemetry fingerprints to TikTok Lite 46.8.3 ([7ca6968](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/7ca69684dd5e6a7ddf01fba2eaeb97b2a54dd3e4))\n* patch TikTok Lite 46.8.3 telemetry methods ([5f53155](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/5f53155339d999f22d3a75e5d0f6cdb989e51350))\n* use TikTok Lite 46.8.3 compatibility ([892fb3e](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/892fb3ea038d05e798af4d08f65b697fe45152a6))",
-  "download_url": "https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "created_at": "2026-09-11T20:14:21",
+  "description": "## [1.1.1](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/compare/v1.1.0...v1.1.1) (2026-09-11)\n\n### Bug Fixes\n\n* relax TikTok Lite telemetry fingerprints ([e3a4adf](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/e3a4adfeac534e2e00695f935889fb0b4a765b8c))",
+  "download_url": "https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/releases/download/v1.1.1/patches-1.1.1.mpp",
   "signature_download_url": "",
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
