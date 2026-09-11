@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "patches": [
     {
       "name": "Disable Login Requirement",
@@ -43,7 +43,7 @@
     },
     {
       "name": "Disable Telemetry",
-      "description": "Disables ByteDance analytics by blocking LiteApplogServiceImpl, AppLogNetworkClient, and startup tracker init tasks.",
+      "description": "Disables TikTok Lite analytics at the event wrapper and network client layers.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
@@ -51,17 +51,17 @@
           "packageName": "com.zhiliaoapp.musically.go",
           "name": "TikTok Lite",
           "description": null,
-          "apkFileType": "APKM",
+          "apkFileType": "APK",
           "appIconColor": "#FE2C55",
           "signatures": null,
           "targets": [
             {
-              "version": "44.9.52",
+              "version": "46.8.3",
               "versionCodes": {
-                "ARM64_V8A": 440952,
-                "ARMEABI_V7A": 440952,
-                "X86_64": 440952,
-                "X86": 440952
+                "ARM64_V8A": 460803,
+                "ARMEABI_V7A": 460803,
+                "X86_64": 460803,
+                "X86": 460803
               },
               "isExperimental": false,
               "minSdk": null,

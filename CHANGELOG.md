@@ -1,3 +1,15 @@
+## [1.1.0](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/compare/v1.0.0...v1.1.0) (2026-09-11)
+
+### Features
+
+* target TikTok Lite 46.8.3 compatibility ([70fd74a](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/70fd74af35aa080de65f4025c14fe762e8049cba))
+
+### Bug Fixes
+
+* match telemetry fingerprints to TikTok Lite 46.8.3 ([7ca6968](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/7ca69684dd5e6a7ddf01fba2eaeb97b2a54dd3e4))
+* patch TikTok Lite 46.8.3 telemetry methods ([5f53155](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/5f53155339d999f22d3a75e5d0f6cdb989e51350))
+* use TikTok Lite 46.8.3 compatibility ([892fb3e](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/892fb3ea038d05e798af4d08f65b697fe45152a6))
+
 ## 1.0.0 (2026-09-11)
 
 ### Bug Fixes
