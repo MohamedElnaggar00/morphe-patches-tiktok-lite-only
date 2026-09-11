@@ -2,8 +2,8 @@ package app.template.patches.tiktok_lite.telemetry
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
-import app.template.patches.shared.Constants.TIKTOK_LITE_COMPATIBILITY
 import app.template.patches.shared.returnEarly
+import app.template.patches.tiktok_lite.TIKTOK_LITE_4683_COMPATIBILITY
 
 @Suppress("unused")
 val tiktokLiteDisableTelemetryPatch = bytecodePatch(
@@ -11,7 +11,7 @@ val tiktokLiteDisableTelemetryPatch = bytecodePatch(
     description = "Disables TikTok Lite analytics at the event wrapper and network client layers.",
     default = true,
 ) {
-    compatibleWith(TIKTOK_LITE_COMPATIBILITY)
+    compatibleWith(TIKTOK_LITE_4683_COMPATIBILITY)
 
     execute {
         ApplogOnEventFingerprint.method.returnEarly()
