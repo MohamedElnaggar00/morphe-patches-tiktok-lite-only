@@ -1,3 +1,10 @@
+## 1.0.0 (2026-09-11)
+
+### Bug Fixes
+
+* make Gradle wrapper executable ([2e6e034](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/2e6e0346f7bd5a4258e3de6fc79545743a4a1950))
+* restore Morphe release workflow ([866ac4f](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only/commit/866ac4f43552b9995e09fcad0e7c61b9e7b62cb1))
+
 ## [1.21.5](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5) (2026-09-08)
 
 ### 🐛 Bug Fixes
