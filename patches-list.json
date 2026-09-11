@@ -1,0 +1,316 @@
+{
+  "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
+  "version": "1.21.5",
+  "patches": [
+    {
+      "name": "Disable Login Requirement",
+      "description": "Removes TikTok Lite mandatory login gate so the app can be browsed without an account.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable Telemetry",
+      "description": "Disables ByteDance analytics by blocking LiteApplogServiceImpl, AppLogNetworkClient, and startup tracker init tasks.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Downloads",
+      "description": "Enables downloading all videos",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable Duet and Stitch",
+      "description": "Unlocks Duet and Stitch on all videos regardless of creator permission settings.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Feed Filter",
+      "description": "Removes ads, sponsored content, and commerce posts from the TikTok Lite home feed.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Hide CAPTCHA Popups",
+      "description": "Suppresses browsing CAPTCHA dialogs from SecApiImpl.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Hide Live Cards",
+      "description": "Removes live stream cards from the TikTok Lite home feed.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove Ads",
+      "description": "Removes feed ads, splash ads, and soft ads from TikTok Lite.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Sanitize Share URLs",
+      "description": "Removes tracking parameters (utm_campaign, share_link_id) from shared links.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Stop Video Looping",
+      "description": "Prevents videos from looping automatically after playback ends.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.zhiliaoapp.musically.go",
+          "name": "TikTok Lite",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FE2C55",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "44.9.52",
+              "versionCodes": {
+                "ARM64_V8A": 440952,
+                "ARMEABI_V7A": 440952,
+                "X86_64": 440952,
+                "X86": 440952
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}
